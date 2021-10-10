@@ -1,0 +1,224 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", "Open+Sans",sans-serif;
+
+
+}
+
+body{
+  background-color: #24252A;
+}
+
+/*header*/
+
+li,a {
+  font-family: "Montserrat", "Open+Sans",sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color:#edf0f1;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+  padding: 1.875rem 10%;
+  background-color: #ed0c2afc;
+  background-color: rgba(237, 12, 42, 0.99);
+  max-height: 7.813rem;
+}
+
+.logo{
+  margin-right: auto;
+  cursor: pointer;
+  height: auto;
+  width: auto;
+
+}
+
+.the-links{
+  list-style: none;
+}
+
+.the-links li{
+  display: inline-block;
+  padding: 0 1.25rem;
+}
+
+.the-links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.the-links li a:hover {
+  color:#0088a9;
+}
+
+.menu{
+  display: none;
+}
+
+@media only screen and (max-width:800px) {
+  .the-links{
+    display: none;
+  }
+
+  .menu{
+    display: inherit;
+}
+
+}
+
+
+/* Header For Mobile devices*/
+.overlay{
+  height: 100%;
+  width:0;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  background-color: inherit;
+  overflow-x: hidden;
+  transition: all 0.5s ease 0s;
+}
+
+.overlay-content{
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.overlay a{
+  padding: 0.938rem;
+  font-size: 2.25rem;
+  display: block;
+  transition: all 0.3s ease 0s;
+
+}
+
+.overlay a:hover, .overlay a:focus{
+  color: #0088a9;
+}
+
+.overlay .close{
+  position: absolute;
+  top: 1.25rem;
+  right: 2.813rem;
+  font-size: 3.75rem;
+}
+
+button{
+  font-size:1.25rem;
+  font-weight: 900;
+  padding: 0.563rem 1.563rem;
+  background-color: #ffff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: #0088a9;
+  color: #ffff;
+
+
+}
+
+@media screen and (max-height:450px) {
+  overlay a{
+    font-size: 1.25rem;
+  }
+
+  .overlay .close{
+    font-size: 2.5rem;
+    top:0.938rem;
+    right: 2.188rem;
+  }
+}
+
+/*main*/
+
+#title{
+  text-align: center;
+  color: #ffff;
+  padding: 3.125rem;
+}
+
+#image-div{
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+figcaption{
+  color: #ffff;
+  font-size: 0.938rem;
+
+}
+
+#tribute-info{
+  text-align: center;
+  padding: 7% 15%
+}
+
+section, .scrpitures{
+color:#ffff;
+line-height: 2;
+}
+
+h3{
+  text-align: left;
+  color: #ed0c2afc;
+}
+
+p{
+  text-align:left;
+}
+
+h2{
+  color: #ed0c2afc;
+}
+
+article{
+  padding-top: 5%;
+}
+
+article li{
+  text-align: left;
+  line-height: 1.7;
+  padding-left: 2%;
+}
+
+/*div*/
+.scrpitures{
+  padding: 3% 20%;
+  font-style: italic;
+  font-weight: 900;
+  font-size:1.875rem;
+  background-color: #fc90f7;
+  background-color: rgba(252, 144, 247, 1);
+}
+
+/*footer*/
+footer{
+  padding: 1% 15%;
+  color:#ffff;
+  line-height: 2;
+}
+
+footer a{
+  color: #ed0c2afc;
+}
+
+article, footer, footer a{
+  font-size: 1.25rem;
+}
