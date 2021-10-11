@@ -25,7 +25,7 @@ header{
   display: flex;
   justify-content:flex-end;
   align-items:center;
-  padding: 1.875rem 10%;
+  padding: 1.875rem 7%;
   background-color: #ed0c2afc;
   background-color: rgba(237, 12, 42, 0.99);
   max-height: 7.813rem;
@@ -63,6 +63,10 @@ header{
 @media only screen and (max-width:800px) {
   .the-links{
     display: none;
+  }
+  
+  #tribute-info{
+  padding: 7% 7%;
   }
 
   .menu{
