@@ -63,6 +63,10 @@ header{
 @media only screen and (max-width:800px) {
   .the-links{
     display: none;
+    
+    #tribute-info{
+    padding: 7% 1%;
+}
   }
 
   .menu{
@@ -142,10 +146,6 @@ button:hover{
     right: 2.188rem;
   }
   
-  #tribute-info{
-    padding: 7% 1%;
-}
-
 /*main*/
 
 #title{
