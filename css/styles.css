@@ -131,7 +131,7 @@ button:hover{
 
 }
 
-@media screen and (max-height:600px) {
+@media screen and (max-height:450px) {
   .overlay a{
     font-size: 1.25rem;
   }
@@ -141,6 +141,9 @@ button:hover{
     top:0.938rem;
     right: 2.188rem;
   }
+  
+  #tribute-info{
+    padding: 7% 1%;
 }
 
 /*main*/
