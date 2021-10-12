@@ -39,6 +39,10 @@ header{
 
 }
 
+.second{
+  display: none;
+}
+
 .the-links{
   list-style: none;
 }
@@ -59,8 +63,6 @@ header{
 .menu{
   display: none;
 }
-
-
 
 /* Header For Mobile devices*/
 .overlay{
@@ -117,9 +119,7 @@ button{
 button:hover{
   background-color: #0088a9;
   color: #ffff;
-
 }
-
 
 /*main*/
 
@@ -202,24 +202,39 @@ article, footer, footer a{
 }
 
 
-
 @media only screen and (max-width:800px) {
   .the-links{
     display: none;
-  }
-  
-   .menu{
-    display: inherit;
-  }
-  
-  #tribute-info, footer{
-  padding: 7% 5%;
-  }
-  
-  .scrpitures{
-  padding: 3% 5%;  
+
   }
 
+  .menu{
+    display: inherit;
+}
+
+#tribute-info, footer{
+  padding: 7% 5%;
+}
+
+.scrpitures{
+  padding: 3% 5%;
+}
+
+.logo{
+  display: none;
+}
+
+.second{
+  display: inherit;
+  margin-right: auto;
+  cursor: pointer;
+  height: auto;
+  width: auto;
+}
+
+header{
+  max-height: 3.125rem;
+}
 
 }
 
@@ -233,4 +248,6 @@ article, footer, footer a{
     top:0.938rem;
     right: 2.188rem;
   }
+
+
 }
