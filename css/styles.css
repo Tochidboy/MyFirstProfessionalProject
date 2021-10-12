@@ -248,6 +248,10 @@ header{
     top:0.938rem;
     right: 2.188rem;
   }
+  
+  .overlay-content{
+  width:100%;
+  }
 
 
 }
