@@ -208,18 +208,18 @@ article, footer, footer a{
     display: none;
   }
   
+   .menu{
+    display: inherit;
+  }
+  
   #tribute-info, footer{
   padding: 7% 5%;
   }
   
   .scriptures{
   padding: 3% 5%;  
-  font-size:1.25rem;
   }
 
-  .menu{
-    display: inherit;
-}
 
 }
 
