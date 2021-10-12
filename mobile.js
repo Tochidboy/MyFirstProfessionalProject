@@ -1,5 +1,5 @@
 function openNav(){
-  document.getElementById("smallersize-menu").style.width= "100%";
+  document.getElementById("smallersize-menu").style.width= "70%";
 }
 
 function closeNav(){
