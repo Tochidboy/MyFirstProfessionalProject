@@ -65,8 +65,8 @@ header{
     display: none;
   }
   
-  p{
-  padding: 7% 1%;
+  #tribute-info{
+  padding: 7% 1% !important;
   }
 
   .menu{
