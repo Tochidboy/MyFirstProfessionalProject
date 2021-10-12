@@ -238,9 +238,13 @@ header{
 
 }
 
-@media screen and (max-height:600px) {
+@media screen and (max-height:450px) {
   .overlay a{
     font-size: 0.938rem;
+  }
+  
+  .overlay-content{
+  width:100%;
   }
 
   .overlay .close{
