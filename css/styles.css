@@ -65,7 +65,7 @@ header{
     display: none;
   }
   
-  #tribute-info{
+  #tribute-info, footer, .scriptures{
   padding: 7% 5% !important;
   }
 
