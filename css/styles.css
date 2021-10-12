@@ -209,7 +209,11 @@ article, footer, footer a{
   }
   
   #tribute-info, footer, .scriptures {
-  padding: 7% 5% !important;
+  padding: 7% 5%;
+  }
+  
+  .scriptures{
+  text-size:1.25rem;
   }
 
   .menu{
