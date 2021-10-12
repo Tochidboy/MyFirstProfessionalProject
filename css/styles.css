@@ -208,12 +208,13 @@ article, footer, footer a{
     display: none;
   }
   
-  #tribute-info, footer, .scriptures {
+  #tribute-info, footer{
   padding: 7% 5%;
   }
   
   .scriptures{
-  font-size:1.25rem;
+  padding: 3% 5%;  
+  font-size:1.8rem;
   }
 
   .menu{
