@@ -240,7 +240,7 @@ header{
 
 @media screen and (max-height:600px) {
   .overlay a{
-    font-size: 1.25rem;
+    font-size: 0.938rem;
   }
 
   .overlay .close{
